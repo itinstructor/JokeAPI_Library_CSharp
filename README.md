@@ -1,9 +1,11 @@
 # C# Library Wrapper for JokeAPI
-## Warning: This is an alpha version.
+### Warning: This is an alpha version. It works, but it will change.
 ### Overview
-- This library converts the JokeAPI at https://v2.jokeapi.dev/joke/Any into JSON. The library converts teh JSON to C# objects with properties for easy interaction in C# projects. Built in .NET Standard 2.0
-- It supports (all) of the returned data the API returns in JSON.
-- Use exception handling. Things go wrong.
+- This library converts the JokeAPI at https://v2.jokeapi.dev/joke/Any into JSON.
+- The library converts the incoming JSON to C# objects with properties for easy interaction in C# projects.
+- It supports all of the returned data the API returns in JSON.
+- Use exception handling in an application. Things go wrong.
+- Built in .NET Standard 2.0
 
 ### Returned Data
 
@@ -19,7 +21,7 @@ There are two methods of obtaining the JokeAPIV2.dll.
    - Generally, the path is something like: `/JokeAPIV2/JokeAPIV2`
 #### Hard Way - Build Your Own JokeAPIV2.dll
 1. Clone this code with the GitHub desktop
-2. Open the proejct in Visual Studio
+2. Open the project in Visual Studio
 3. Build the project
 4. In the project that's using this code, reference or copy the built DLL to your project from the previous step:
    - Project menu -> Add Reference -> Search for the created DLL(s) file.
