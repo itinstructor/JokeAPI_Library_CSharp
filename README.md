@@ -19,7 +19,7 @@ There are two methods of obtaining the JokeAPIV2.dll.
    - Generally, the path is something like: `/JokeAPIV2/JokeAPIV2`
 #### Hard Way - Build Your Own JokeAPIV2.dll
 1. Clone this code with the GitHub desktop
-2. Open the code in Visual Studio
+2. Open the proejct in Visual Studio
 3. Build the project
 4. In the project that's using this code, reference or copy the built DLL to your project from the previous step:
    - Project menu -> Add Reference -> Search for the created DLL(s) file.
