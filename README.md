@@ -39,7 +39,8 @@ This repository contains an example project.
 
 ### Purpose
 I am an Information Technology Instructor at Western Nebraska Community College. I teach Information Technology Technical Support, CyberSecurity and Computer Science.
-This library was forked and modified for a Visual C# introductory programming class as a tutorial. Students are given the opportunity to learn how to consume a public API without the underlying complexity of parsing json or xml. It reinforces OOP concepts of objects and properties, while being a fun and interesting project.
+
+This library was created for a Visual C# introductory programming class as a tutorial. Students are given the opportunity to learn how to consume a public API without the underlying complexity of parsing json or xml. It reinforces OOP concepts of objects and properties, while being a fun and interesting project.
 
 ### Changes
 - 03/14/2021: Initial commit of alpha version
