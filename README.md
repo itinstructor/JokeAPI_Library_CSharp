@@ -12,12 +12,12 @@ https://jokeapi.dev
 
 ### Installing
 There are two methods of obtaining the JokeAPIV2.dll.
-- Easy Way
+#### Easy Way
 1. Download the JokeAPIV2.dll file. Copy it to your Visual C# project.
 2. In your project that's using this code, reference the built DLL from the previous step:
    - Project dropdown -> Add Reference -> Search for the created DLL file.
    - Generally, the path is something like: `/JokeAPIV2/JokeAPIV2`
-- Hard Way - Build Your Own JokeAPIV2.dll
+#### Hard Way - Build Your Own JokeAPIV2.dll
 1. Clone this code with the GitHub desktop
 2. Open the code in Visual Studio
 3. Build the project
