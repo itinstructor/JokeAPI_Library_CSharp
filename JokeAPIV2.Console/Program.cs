@@ -22,7 +22,7 @@ namespace JokeAPIV2
             jsonString = client.DownloadString(API);
             
             // Convert Json into C# Class
-            Root root = JsonConvert.DeserializeObject<Root>(jsonString);
+            JokeAPIV2.Joke joke = JsonConvert.DeserializeObject<JokeAPIV2.Joke>(jsonString);
 
             // For debugging, display raw Json data
             // Console.WriteLine(jsonString);
@@ -30,8 +30,8 @@ namespace JokeAPIV2
             Console.WriteLine("GET a joke");
 
             // Jok is displayed as properties of joke object
-            Console.WriteLine($"\n{root.setup}");
-            Console.WriteLine($"\n{root.delivery}");
+            Console.WriteLine($"\n{joke.setup}");
+            Console.WriteLine($"\n{joke.delivery}");
 
             // Pause the program
             Console.ReadLine();

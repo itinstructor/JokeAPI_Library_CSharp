@@ -1,6 +1,6 @@
 ﻿namespace JokeAPIV2
 {
-    public class Root
+    public class Joke
     {
         public bool error { get; set; }
 
