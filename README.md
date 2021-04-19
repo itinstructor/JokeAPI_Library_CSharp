@@ -27,12 +27,7 @@ There are two methods of obtaining the JokeAPIV2.dll.
    - Project menu -> Add Reference -> Search for the created DLL(s) file.
    - Generally, the path is something like: `/JokeAPIV2/JokeAPIV2`
 
-### Example Console Usage
-```csharp
-
-```
-
-### Sample Project
+### Example Project
 This repository contains an example project.
 - Console Example
 

@@ -27,7 +27,5 @@ namespace JokeAPIV2
         public long id { get; set; }
 
         public string lang { get; set; }
-
     }
- 
 }
