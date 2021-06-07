@@ -1,7 +1,6 @@
 # C# Library Wrapper for JokeAPI
-### Warning: This is an alpha version. It works, but it will change.
 ### Overview
-- This library converts the JokeAPI at https://v2.jokeapi.dev/joke/Any into JSON.
+- This C# library converts the JokeAPI at https://v2.jokeapi.dev/joke/Any into JSON.
 - The library converts the incoming JSON to C# objects with properties for easy interaction in C# projects.
 - It supports all of the returned data the API returns in JSON.
 - Use exception handling in an application. Things go wrong.
@@ -40,7 +39,7 @@ I am an Information Technology Instructor at Western Nebraska Community College.
 This library was created for a Visual C# introductory programming class as a tutorial. Students are given the opportunity to learn how to consume a public API without the underlying complexity of parsing json or xml. It reinforces OOP concepts of objects and properties, while being a fun and interesting project.
 
 ### Changes
-- 03/14/2021: Initial commit of alpha version
+- 03/14/2021: Initial commit
 - 03/16/2021: Working version
 
 ### License
