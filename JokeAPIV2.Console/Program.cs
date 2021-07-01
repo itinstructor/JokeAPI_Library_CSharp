@@ -27,7 +27,7 @@ namespace JokeAPIV2
             // For debugging, display raw Json data
             // Console.WriteLine(jsonString);
 
-            Console.WriteLine("GET a joke\n");
+            Console.WriteLine("Get a joke\n");
 
             // Jok is displayed as properties of joke object
             Console.WriteLine($"{joke.setup}");
