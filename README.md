@@ -1,5 +1,4 @@
 # C# Library Wrapper for JokeAPI
-### Warning: This is an alpha version. It works, but it will change.
 ### Overview
 - This library converts the JokeAPI at https://v2.jokeapi.dev/joke/Any into JSON.
 - The library converts the incoming JSON to C# objects with properties for easy interaction in C# projects.
@@ -25,7 +24,7 @@ There are two methods of obtaining the JokeAPIV2.dll.
 3. Build the project
 4. In the project that's using this code, reference or copy the built DLL to your project from the previous step:
    - Project menu -> Add Reference -> Search for the created DLL(s) file.
-   - Generally, the path is something like: `/JokeAPIV2/JokeAPIV2`
+   - Generally, the path is something like: ./JokeAPIV2/JokeAPIV2`
 
 ### Example Project
 This repository contains an example project.
