@@ -7,7 +7,13 @@
 - Built in .NET Standard 2.0
 
 ### Returned Data
-
+ Joke
+  * error - (bool)
+  * category - Category of joke (string)
+  * type - single, two-part (string)
+  * joke - The text of the joke (string)
+  * safe - true, false (bool)
+  
 ### Joke API documentation
 https://jokeapi.dev
 
